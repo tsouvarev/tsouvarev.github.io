@@ -1,3 +1,12 @@
 body {
     margin: 100px 0px;
 }
+li {
+    margin-bottom: 0rem;
+}
+section {
+    margin-top: 2rem;
+}
+.container {
+    max-width: 800px;
+}
