@@ -16,35 +16,36 @@
     </nav>
     <article>
         <h1>Про Trunk-Based Development и CI</h1>
-        <time>22 апреля 2020</time>
-        <section>
-            <h2>TL/DR</h2>
-            <blockquote cite="https://trunkbaseddevelopment.com/">
-                Trunk-Based Development is a key enabler of Continuous Integration
-                and by extension Continuous Delivery. When individuals on a team
-                are committing their changes to the trunk multiple times a day
-                it becomes easy to satisfy the core requirement of
-                Continuous Integration that all team members commit to trunk
-                at least once every 24 hours. This ensures the codebase is always
-                releasable on demand and helps to make Continuous Delivery a reality.
-            </blockquote>
-            <cite>
-                <a href="https://trunkbaseddevelopment.com/">https://trunkbaseddevelopment.com/</a>
-            </cite>
-        </section>
 
-        <section>
-            <h2>Важное свойство Continious Integration, про которое часто забывают</h2>
-            <div>
-                Из <a href="https://ru.wikipedia.org/wiki/Непрерывная_интеграция">русской Википедии</a>:
-                <blockquote>
-                    Непрерывная интеграция (CI, англ. Continuous Integration) — практика разработки
-                    программного обеспечения, которая заключается в постоянном слиянии рабочих копий
-                    в общую основную ветвь разработки (до нескольких раз в день)
-                    и выполнении частых автоматизированных сборок проекта
-                    для скорейшего выявления потенциальных дефектов и решения интеграционных проблем.
-                </blockquote>
-            </div>
+        <p><time>22 апреля 2020</time></p>
+
+        <h2>TL/DR</h2>
+        <blockquote cite="https://trunkbaseddevelopment.com/">
+            Trunk-Based Development is a key enabler of Continuous Integration
+            and by extension Continuous Delivery. When individuals on a team
+            are committing their changes to the trunk multiple times a day
+            it becomes easy to satisfy the core requirement of
+            Continuous Integration that all team members commit to trunk
+            at least once every 24 hours. This ensures the codebase is always
+            releasable on demand and helps to make Continuous Delivery a reality.
+        </blockquote>
+        <cite>
+            <a href="https://trunkbaseddevelopment.com/">https://trunkbaseddevelopment.com/</a>
+        </cite>
+
+        <h2>Важное свойство Continious Integration, про которое часто забывают</h2>
+        <p>
+            Из <a href="https://ru.wikipedia.org/wiki/Непрерывная_интеграция">русской Википедии</a>:
+            <blockquote>
+                Непрерывная интеграция (CI, англ. Continuous Integration) — практика разработки
+                программного обеспечения, которая заключается в постоянном слиянии рабочих копий
+                в общую основную ветвь разработки (до нескольких раз в день)
+                и выполнении частых автоматизированных сборок проекта
+                для скорейшего выявления потенциальных дефектов и решения интеграционных проблем.
+            </blockquote>
+        </p>
+
+        <p>
             Многие концентрируются на второй части (<i>запускайте тесты в пайплайнах</i>),
             полностью игнорируя первую (<i>интеграция кода каждый день</i>).
             Но если посмотреть
@@ -54,21 +55,22 @@
                 In software engineering, continuous integration (CI) is the practice of merging
                 all developers' working copies to a shared mainline several times a day.
             </blockquote>
+        </p>
 
+        <p>
             Тесты появляются в списке практик, позволяющих делать частые интеграции
             без ущерба для проекта, что довольно логично - если постоянно коммитишь в мастер,
             то пусть хотя бы машина это проверяет.
-        </section>
+        </p>
 
-        <section>
         <h2>Про Trunk-Based Development</h2>
-
-        Загибайте пальцы, если услышали что-то знакомое:
-        <ul>
-            <li>есть одна основная ветка, в которую коммитит вся команда;</li>
-            <li>перед коммитом прогоняются тесты;</li>
-            <li>если не практикуется парное программирование,
-                то допускаются короткоживущие (день-два) ветки для ревью.</li>
+        <p>
+            Загибайте пальцы, если услышали что-то знакомое:
+            <ul>
+                <li>есть одна основная ветка, в которую коммитит вся команда;</li>
+                <li>перед коммитом прогоняются тесты;</li>
+                <li>если не практикуется парное программирование,
+                    то допускаются короткоживущие (день-два) ветки для ревью.</li>
             </ul>
             Они и правда очень здорово дополняют друг друга,
             хотя можно делать CI и без TBD (через частый мерж в мастер).
@@ -92,30 +94,27 @@
                     Наверное, самый популярный вариант, хотя мало кто знает его под таким названием.
                 </li>
             </ul>
-        </section>
+        </p>
 
-        <section>
-            <h2>Что дает TBD</h2>
-
+        <h2>Что дает TBD</h2>
+        <p>
             Зачем нам может понадобиться частая интеграция, если при этом придется
             полагаться на тесты, которые еще и нужно написать?
             Давайте посмотрим, на плюсы и минусы,
             которые на самом деле следствия частых мержей под разными углами.
 
-            <section>
-                <h3>Очень быстрое развитие проекта</h3>
-
+            <h3>Очень быстрое развитие проекта</h3>
+            <p>
                 Что и говорить, если пушишь сразу в мастер, то быстрее уже некуда.
                 Если это прототип или pet-project, то по умолчанию многие даже тесты не пишут,
                 потому что и так сойдет.
                 Однако, если есть необходимость контролировать разработку
                 (джуниоров, например, или просто новых разработчиков),
                 то подход не подойдет.
-            </section>
+            </p>
 
-            <section>
-                <h3>Ранний показ WIP-кода</h3>
-
+            <h3>Ранний показ WIP-кода</h3>
+            <p>
                 При TBD в мастере могут оказаться незаконченные фичи.
 
                 Почему это может быть хорошо:
@@ -133,11 +132,10 @@
                         не забыть потом их выключать;</li>
                     <li>больше вероятность багов, если делать это неаккуратно.</li>
                 </ul>
-            </section>
+            </p>
 
-            <section>
-                <h3>Маленькие реквесты</h3>
-
+            <h3>Маленькие реквесты</h3>
+            <p>
                 Если нужно коммитить в мастер почти каждый день,
                 то (даже с учетом короткоживущих веток) делать большие реквесты не получится.
 
@@ -161,11 +159,11 @@
 
                 К сожалению, это все означает больше работы над оформлением коммитов
                 и разбиением фич, чтобы они поместились в маленький реквест.
-            </section>
+            </p>
 
-            <section>
-                <h3>Меньше конфликтов при мерже</h3>
+            <h3>Меньше конфликтов при мерже</h3>
 
+            <p>
                 Если мержить только в конце разработки,
                 то это позволяет довольно сильно изолировать фичи,
                 но и приводит к накоплению конфликтов.
@@ -179,10 +177,10 @@
                 что снижает конфликтность изменений.
                 Это очень важная штука, потому что большой реквест на 15 коммитов
                 ребейзить каждую неделю довольно больно.
-            </section>
-        </section>
+            </p>
+        </p>
 
-        <section>
+        <p>
             <h2>Полезные ссылки</h2>
             <ul>
                 <li>
@@ -199,7 +197,7 @@
                         https://www.branchbyabstraction.com/</a>
                 </li>
             </ul>
-        </section>
+        </p>
     </article>
 </body>
 </html>
