@@ -29,10 +29,16 @@
         <table>
         {% for obj in objects %}
             <tr>
-                <td>{{ obj['name'] }}</td>
+                <td>
+                    {%- if obj['link'] -%}
+                        <a href="{{ obj['link'] }}">{{ obj['name'] }}</a>
+                    {%- else -%}
+                        {{ obj['name'] }}
+                    {%- endif -%}
+                </td>
                 <td><img src="{{ obj['image'] }}"></td>
             </tr>
-        {% endfor %}
+        {%- endfor %}
         </table>
     </section>
 </body>
