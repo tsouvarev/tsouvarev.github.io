@@ -1,8 +1,8 @@
----
-layout: post
-title:  "Бары и крылышки"
-categories: pubs
----
+Title: Бары и крылышки
+Date: 2024-11-04
+Modified: 2025-05-31
+Category: pubs
+Summary:
 
 <table>
     <thead>

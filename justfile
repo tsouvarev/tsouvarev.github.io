@@ -1,2 +1,5 @@
 dev:
-    bundle exec jekyll serve
+	uv run pelican -lr 
+
+generate:
+	uv run pelican 

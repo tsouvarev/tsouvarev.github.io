@@ -1,11 +1,7 @@
----
-layout: post
-title:  "Про Trunk-Based Development и CI"
-categories: tech
----
-
-* Do not remove this line (it will not be displayed)
-{:toc}
+Title: Про Trunk-Based Development и CI
+Date: 2022-04-22
+Category: thoughts
+Summary:
 
 ## TL/DR
 
@@ -19,9 +15,9 @@ categories: tech
 
 <https://trunkbaseddevelopment.com/>
 
-## Важное свойство Continious Integration, про которое часто забывают
+## Важное свойство Continuous Integration, про которое часто забывают
 
-Из [русской Википедии](https://ru.wikipedia.org/wiki/Непрерывная_интеграция):
+Из [русской Википедии](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F):
 
 > Непрерывная интеграция (CI, англ. Continuous Integration) — практика разработки
 > программного обеспечения, которая заключается в постоянном слиянии рабочих копий

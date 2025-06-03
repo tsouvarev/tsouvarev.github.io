@@ -53,3 +53,7 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
+
+output
+__pycache__
+.venv
