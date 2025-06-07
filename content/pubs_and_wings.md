@@ -1,6 +1,6 @@
 Title: Бары и крылышки
 Date: 2024-11-04
-Modified: 2025-05-31
+Pin: true
 Category: pubs
 Summary:
 

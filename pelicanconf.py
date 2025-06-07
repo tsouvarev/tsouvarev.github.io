@@ -32,3 +32,5 @@ INTRO = "Description you like"
 # RELATIVE_URLS = True
 
 PHOTO_LIBRARY = "content"
+PLUGINS = ['pin_to_top']
+PLUGIN_PATHS = ["plugins"]
