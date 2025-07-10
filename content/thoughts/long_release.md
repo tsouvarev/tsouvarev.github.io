@@ -15,3 +15,7 @@ Summary:
 - за неделю проходит очень много времени между запилом фичи и раскаткой на проде,
   из-за этого сложно дебажить проблемы
 - много задач собирается в релизе => больше нагрузка на тестировщиков
+
+Релевантное чтение: Accelerate by Nicole Forsgren, Jez Humble, Gene Kim 
+([Amazon](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), 
+[Litres](https://litres.com/book/dzhez-hambl/uskoryaysya-nauka-devops-50628699/)).
