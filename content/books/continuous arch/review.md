@@ -30,4 +30,4 @@ Summary: Если архитектурой управлять, то будет �
 - не до конца понял, как работает value chains with user stories, но тоже интересно
 - есть релевантный сайт [https://continuous-architecture.org/](https://continuous-architecture.org/)
 
-![Photo]({static}mindmap.png){width=100% height=100%}
+![Mindmap]({static}mindmap.png){width=100% height=100%}

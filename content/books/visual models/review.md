@@ -2,11 +2,11 @@ Title: Отзыв на книгу "Visual Models for Software Requirements"
 Date: 2024-04-13
 Category: books
 Tags: pm, great
-Summary: 
+Summary: Отличная книга про разные визуализации этапа проработки требований
 
 ![Cover]({static}cover.jpg){width=50%}
 
-**TL/DR**: 
+**TL/DR**: Отличная книга про разные визуализации этапа проработки требований
 
 **Субъективная оценка**: 6/5
 
