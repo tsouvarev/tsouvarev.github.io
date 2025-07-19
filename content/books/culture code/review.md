@@ -17,6 +17,7 @@ Summary: You are safe, we share risk here, this is why we work
 (на мой вкус излишне пространными и не всегда авторитетными), но почему бы и нет. 
 
 Лично меня больше всего зацепил вординг в некоторых местах, там даже не всегда на него упор делают:
+
 - You are safe, we share risk here, this is why we work
 - Safe place to give efforts
 - Belonging cues
