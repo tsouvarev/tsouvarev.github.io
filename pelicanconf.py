@@ -34,3 +34,12 @@ INTRO = "Description you like"
 PHOTO_LIBRARY = "content"
 PLUGINS = ['pin_to_top']
 PLUGIN_PATHS = ["plugins"]
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.toc': {},
+        'markdown.extensions.extra': {},  # for tables
+        'markdown.extensions.def_list': {},  
+    },
+    'output_format': 'html5',
+}
