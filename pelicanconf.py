@@ -27,12 +27,17 @@ DEFAULT_PAGINATION = False
 THEME = '../pelican-themes/svbtle/'
 PROFILE_IMAGE = None
 INTRO = "Description you like"  
+TAG_URL = 'tags/{slug}'
+TAG_SAVE_AS = 'tags/{slug}.html'
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags.html'
+CATEGORIES_SAVE_AS = 'categories.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 PHOTO_LIBRARY = "content"
-PLUGINS = ['pin_to_top']
+PLUGINS = ['pin_to_top', 'tag_cloud']
 PLUGIN_PATHS = ["plugins"]
 
 MARKDOWN = {
