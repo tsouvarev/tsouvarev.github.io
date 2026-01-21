@@ -30,8 +30,8 @@ INTRO = "Description you like"
 TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}.html'
 TAGS_URL = 'tags/'
-TAGS_SAVE_AS = 'tags.html'
-CATEGORIES_SAVE_AS = 'categories.html'
+TAGS_SAVE_AS = 'tags/index.html'
+CATEGORIES_SAVE_AS = 'categories/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
