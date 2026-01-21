@@ -1,5 +1,11 @@
+RUN := 'uv run --frozen'
+CUTOFF := '"7 days ago"'
+
 dev:
-	uv run pelican -lr 
+	{{ RUN }} pelican -lr 
 
 generate:
-	uv run pelican 
+	{{ RUN }} pelican 
+
+upgrade:
+	{{ RUN }} uv lock --upgrade --exclude-newer {{ CUTOFF }}
