@@ -49,11 +49,11 @@ Summary:
 
 # Москва
 
-## Chocolateria Foodroom Cacao ⭐⭐
+## Неслучайно 08 08 ⭐⭐
 
-[https://foodroom.ru/](https://foodroom.ru/)
+[https://www.instagram.com/nesluchajno0808/](https://www.instagram.com/nesluchajno0808/)
 
-ул. Лесная, 20A
+ул. Красная Пресня, 38
 
 |                          |   |
 |--------------------------|---|
@@ -69,6 +69,21 @@ Summary:
 [https://ahimsachocolate.com/](https://ahimsachocolate.com/)
 
 Парк Дружба
+
+|                          |   |
+|--------------------------|---|
+| Без сахара               | ✅ |
+| На воде                  | ✅ |
+| На альтернативном молоке | ✅ |
+| Шоколатерия              | ✅ |
+| Необычные вкусы          | ❌ |
+| Выбор сорта какао        | ✅ |
+
+## Chocolateria Foodroom Cacao ⭐⭐
+
+[https://foodroom.ru/](https://foodroom.ru/)
+
+ул. Лесная, 20A
 
 |                          |   |
 |--------------------------|---|
