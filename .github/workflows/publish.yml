@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+jobs:
+  generate_tech_radar:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.pages_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Tech Radar
+        id: deployment
+        uses: flexion/tech-radar-generator@v0.1.3
+        with:
+          radar_name: Tech Radar
+          directory: ./content/radar
+          base_path: /radar
+          base_dir: /radar
+          publish_to_pages: false
+
+  deploy:
+    uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
+    with:
+      settings: "pelicanconf.py"
+      requirements: "pelican[markdown]"
+      theme: "https://github.com/wting/pelican-svbtle.git"
