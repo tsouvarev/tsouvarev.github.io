@@ -12,7 +12,7 @@ Summary:
 
 # Санкт-Петербург
 
-## Amazing cacao ⭐⭐⭐
+## ⭐⭐⭐ Amazing cacao 
 
 [https://amazingcacao.com/](https://amazingcacao.com/)
 
@@ -27,7 +27,7 @@ Summary:
 | Необычные вкусы          | ✅ |
 | Выбор сорта какао        | ✅ |
 
-## Etlon ⭐
+## ⭐ Etlon 
 
 [https://etlon.ru/](https://etlon.ru/)
 
@@ -49,7 +49,7 @@ Summary:
 
 # Москва
 
-## Неслучайно 08 08 ⭐⭐
+## ⭐⭐ Неслучайно 08 08 
 
 [https://www.instagram.com/nesluchajno0808/](https://www.instagram.com/nesluchajno0808/)
 
@@ -64,7 +64,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ✅ |
 
-## Какао-дом Ахимса ⭐⭐
+## ⭐⭐ Какао-дом Ахимса 
 
 [https://ahimsachocolate.com/](https://ahimsachocolate.com/)
 
@@ -79,7 +79,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ✅ |
 
-## Chocolateria Foodroom Cacao ⭐⭐
+## ⭐⭐ Chocolateria Foodroom Cacao
 
 [https://foodroom.ru/](https://foodroom.ru/)
 
@@ -94,7 +94,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ✅ |
 
-## Skuratov ⭐⭐
+## ⭐⭐ Skuratov 
 
 [https://skuratovcoffee.ru/](https://skuratovcoffee.ru/)
 
@@ -109,7 +109,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ✅ |
 
-## Эрна ⭐
+## ⭐ Эрна 
 
 [https://www.instagram.com/erna.coffee/](https://www.instagram.com/erna.coffee/)
 
@@ -124,7 +124,7 @@ Summary:
 | Необычные вкусы          | ✅ |
 | Выбор сорта какао        | ❌ |
 
-## Делюсь душой ⭐
+## ⭐ Делюсь душой 
 
 [https://www.instagram.com/ddcoffeemsk/](https://www.instagram.com/ddcoffeemsk/)
 
@@ -139,7 +139,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ❌ |
 
-## Четверг ⭐
+## ⭐ Четверг 
 
 [https://chetverg.clients.site/](https://chetverg.clients.site/)
 
@@ -154,7 +154,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ❌ |
 
-## Beyond coffee and food ⭐
+## ⭐ Beyond coffee and food 
 
 [https://beyond-rest.ru/](https://beyond-rest.ru/)
 
@@ -169,7 +169,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ❌ |
 
-## Аленка ⭐
+## ⭐ Аленка 
 
 [https://cafe.alenka.ru/](https://cafe.alenka.ru/)
 
@@ -186,7 +186,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ❌ |
 
-## Eleven ⭐
+## ⭐ Eleven 
 
 [https://eleven.lucky-group.rest/](https://eleven.lucky-group.rest/)
 
@@ -201,7 +201,7 @@ Summary:
 | Необычные вкусы          | ❌ |
 | Выбор сорта какао        | ❌ |
 
-## La princess Choco ⭐
+## ⭐ La princess Choco 
 
 [https://laprincesse.ru/](https://laprincesse.ru/)
 
